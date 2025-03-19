@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Specify the package manager (npm for React projects)
+    directory: "/" # Root directory of the project
+    schedule:
+      interval: "daily" # Check for updates daily
+    commit-message:
+      prefix: "deps" # Prefix for Dependabot's commit messages
+    open-pull-requests-limit: 5 # Limit the number of open PRs
