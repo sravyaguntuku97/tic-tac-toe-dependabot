@@ -6,4 +6,4 @@ updates:
       interval: "daily" # Check for updates daily
     commit-message:
       prefix: "deps" # Prefix for Dependabot's commit messages
-    open-pull-requests-limit: 5 # Limit the number of open PRs
+    open-pull-requests-limit: 3 # Limit the number of open PRs
