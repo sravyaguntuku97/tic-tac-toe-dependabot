@@ -63,7 +63,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <button onClick={restartGame}>Restart the Game</button>
+      <button onClick={restartGame}>Restart Game</button>
 
       {winnerMessage && (
         <div className="popup">
